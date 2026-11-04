@@ -87,11 +87,8 @@ export function CalculatorWorkspace() {
   return (
     <div id="calculator-workspace" className="grid items-start gap-6 xl:grid-cols-[minmax(0,1.05fr)_minmax(420px,0.95fr)] xl:gap-7">
       <Card className="overflow-hidden">
-        <CardHeader className="border-b border-[#edf1ed] bg-[#fcfdfb] px-5 py-5 sm:px-7 sm:py-6">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <Badge><span className="size-1.5 rounded-full bg-[#3d916c]" /> Calculator</Badge>
-          </div>
-          <CardTitle className="pt-1 text-xl">Property details</CardTitle>
+        <CardHeader className="border-b border-[#edf1ed] px-5 py-5 sm:px-7 sm:py-6">
+          <CardTitle className="text-xl">Calculator</CardTitle>
           <CardDescription>Enter your purchase, rental and operating assumptions to assess the numbers.</CardDescription>
         </CardHeader>
 
