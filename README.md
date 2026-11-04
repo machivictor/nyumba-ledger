@@ -105,8 +105,8 @@ Initial acquisition and financing costs are entered by the user rather than esti
 **Requirements:** Node.js `22.12+` and npm.
 
 ```bash
-git clone <your-repository-url>
-cd kenyan-property-calculator
+git clone https://github.com/machivictor/nyumba-ledger
+cd nyumba-ledger
 npm install
 npm run dev
 ```
