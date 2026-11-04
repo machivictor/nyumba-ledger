@@ -17,6 +17,7 @@ import { calculateInvestment } from "@/lib/calculations/real-estate";
 import { formatCurrencyInput } from "@/lib/formatting/currency";
 import type { CalculatorInput } from "@/lib/validation/calculator-schema";
 import { calculatorSchema } from "@/lib/validation/calculator-schema";
+import { z } from "zod";
 
 const CURRENCY_FIELD_IDS = [
   "purchasePrice",
